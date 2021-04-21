@@ -1,0 +1,502 @@
+/*Start main*/
+body{
+  height: 4000px;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.clearfix{
+    clear: both
+}
+
+/*End main*/
+/*start header */
+.header .slider{
+    background-image: url('../images/one.jpg');
+    background-size: cover; /*CSS3*/
+    -webkit-background-size: cover; /*CSS3*/
+    -moz-background-size: cover; /*CSS3*/
+    -o-background-size: cover; /*CSS3*/
+    background-size: cover; /*CSS3*/
+    background-color: #EEE;
+    height: 700px;
+    
+}
+.header .slider .intro {
+    padding-top: 200px;
+   
+    height: 700px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.header .slider .intro h2{
+    font-size: 50px;
+    margin: 0 auto;
+    width: 600px;
+    border-bottom: 4px solid aliceblue;
+    border-top: 4px solid aliceblue;
+    padding: 5px 0;
+    /* text-transform: uppercase;*/  
+}
+.header .slider .intro button{
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid aliceblue;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: aliceblue;
+}
+
+.header .navbar{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    
+}
+.header .navbar ul{
+    list-style: none;
+    padding: 0;
+    float: right;
+    
+        
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.header .navbar ul li a:hover{
+    color:  #047cd8;
+}
+
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span{
+    /*color: #2ecc71;*/
+    color: #047cd8;
+}
+
+/*end header */
+/*start Features*/
+.Features{
+    overflow: hidden;
+}
+.Features .Feat{
+    float: left;
+    width:29.333%;
+    background-color: aliceblue;
+    height: 150px;
+    padding: .8%;
+    margin: 30px 10px;
+    border-radius: 20%;
+    
+        
+}
+.Features .Feat h2{
+    text-transform: uppercase;
+}
+/*End Features*/
+/*start about me*/
+.aboutme{
+   background:  #F2F2F2;
+    overflow: hidden;
+}
+.aboutme .image{
+    float: left;
+    width: 40%;
+}
+.aboutme .image img{
+    width: 100%;
+    height: 450px;
+        
+}
+.aboutme .info{
+    float: left;
+    
+    width: 60%;
+    
+    
+    
+}
+.aboutme .info h2{
+    margin: 25px 0 20px 40px;
+    color: #444;
+}
+.aboutme .info >p{
+    margin: 0 0 10px 40px;
+  
+}
+
+.aboutme .info p{
+    
+  color: #555;
+    line-height: 1.4;
+    
+}
+.aboutme .info > p:last-of-type{
+    margin-top: 20px ;
+}
+
+.aboutme .info .hobbies{
+    overflow: hidden;
+    margin: 15px 0 0 40px;
+}
+.aboutme .info .hobbies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+    
+}
+.aboutme .info .hobbies .content h3{
+    color: #555;
+}
+.aboutme .info .hobbies .content .icon{
+    float: left;
+    width: 12%;
+    margin-right: 5%;
+}
+.aboutme .info .hobbies .content .icon img{
+    max-width: 100%;
+    margin: 20px 10px 0 0;
+}
+
+.aboutme .info .hobbies .content .text{
+    float: left;
+    width: 83%;
+}
+.aboutme .info .hobbies .content .text p{
+    margin-top: 0;
+}
+.aboutme .info .hobbies .content .text h3{
+    margin-bottom: 5px;
+}
+
+/*end about me */
+/*start my_skills*/
+.my_skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my_skills .skills,.my_skills .progress{
+    width: 50%;
+    float: left;
+    
+}
+.my_skills .skills h2{
+    margin: 25px 0 20px 40px;
+    color: #444;
+}
+
+.my_skills .skills p{
+    margin: 0 0 10px 40px;
+    color: #555;
+    line-height: 1.6;
+    
+}
+.my_skills .skills > p:last-of-type{
+    margin-top: 20px ;
+}
+.my_skills .skills button{
+    background: none;
+    border: 3px solid #1a7cdd;
+    padding: 10px 30px;
+    color: #1a7cdd;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.my_skills .progress .technique{margin-left: 50px}
+.my_skills .progress .technique h3{ color: #444 ; margin-bottom: 10px;}
+.my_skills .progress .technique div{
+    background: #F2F2F2;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.my_skills .progress .technique div span{
+    background: #1a7cdd;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+    
+}
+/*end my-skills*/
+/*start resume*/
+.resume{
+    background: #F2F2F2;
+     padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.resume h2{
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.resume p{
+    line-height: 1.7;
+    color: #666;
+    padding: 0 40px;
+    
+}
+.resume button{
+    margin-top: 15px;
+    background: none;
+    border: 3px solid #1a7cdd;
+    padding: 10px 30px;
+    color: #1a7cdd;
+}
+/*end resume*/
+/*start eduction*/
+.my_eduction{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my_eduction .eduction{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+    
+}
+
+.my_eduction .eduction h2{
+    margin: 25px 0 20px 40px;
+    color: #444;
+}
+
+.my_eduction .eduction p{
+    margin: 0 0 10px 40px;
+    color: #555;
+    line-height: 1.6;
+    
+}
+.my_eduction eduction > p:last-of-type{
+    margin-top: 20px ;
+}
+.my_eduction .exp{
+    width: 45%;
+    float: left;
+    
+}
+.my_eduction .exp .certificate h3{
+    margin-top: 80px;
+    margin-bottom: 10px;
+     color: #555;
+}
+.my_eduction .exp .certificate span{
+    margin-bottom: 10px;
+    display: block;
+}
+.my_eduction .exp .certificate span:first-of-type{
+    color: #999;
+}
+.my_eduction .exp .certificate span:last-of-type{
+    background: #1a7cdd;
+    color: #FFF;
+    display: inline-block;
+    padding: 4px 11px;
+}
+.my_eduction .exp .certificate hr{
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #999;
+    
+}
+.my_eduction .exp .certificate p{
+    line-height: 1.7;
+    color: #777;
+}
+/*end eduction*/
+/*start test*/
+.test{
+    background: #F2F2F2;
+     padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+  
+}
+.test q{
+    color: #888;
+    font: italic bold 18px/1.8  Arial,Tahoma;
+}
+.test h3{
+    color: #777;
+    margin-bottom: 30px;
+}
+.test ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.test ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #1a7cdd;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%; /*CSS3*/
+}
+.test ul li.active{
+    background-color: #1a7cdd;
+}
+.test ul li:hover{
+    background-color: #1a7cdd;
+}
+/*end test*/
+/*Start portfolio */
+.portifolio{
+      padding-top: 50px;
+      padding-bottom: 70px;
+      text-align: center;
+}
+.portifolio h3{
+    color: #777;
+}
+.portifolio p{
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 30px;
+}
+.portifolio .our_works{
+    overflow: hidden;
+}
+.portifolio .our_works >div{
+    float: left;
+    width: 33.333%;
+    margin-bottom: 10px;
+}
+.portifolio .our_works >div img{
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    /*box-shadow: 10px 10px 12px #CCC;*/
+    
+}
+/*End portfolio */
+/*start contact*/
+.contact{
+    background: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.contact h2{
+    color: #FFF;
+    margin-left: 40px;
+}
+.contact p{
+    color: #6A6E71;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+.contact p strong{
+    color: #D1D6DA;
+}
+.contact .Formm {
+    float: left;
+    width: 45%;
+    
+}
+.contact .Formm label{
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0;
+}
+.contact .Formm input[type="text"]{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 7px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.contact .Formm textarea{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 7px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.contact .Formm input[type="submit"]{
+    background: #191E22;
+    color: #FFF;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 13px;
+}
+.contact .info{
+    float: left;
+    width: 50%;
+   margin-right: 5%
+}
+/*end contact*/
+/*end Footer*/
+.footer{
+    background: #191E22;
+    color: #6A6E71;
+    text-align: center;
+    padding:15px 0;
+    overflow:hidden; 
+    
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li img{
+    width: 24px;
+}
+/*end Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End portfolio */
